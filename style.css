@@ -1,0 +1,47 @@
+   body {
+        font-family: "Sono", sans-serif;
+      }
+.error-container{
+  display:flex;
+  flex-direction:row;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+img{
+  max-height:250px;
+}
+.error-message{
+  font-size: 25px;
+  transform: ease-in-out
+}
+.error-message{
+  width: 200px;
+  height: 200px;
+  animation: zoomInOut 2s ease-in-out infinite;
+}
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+
+.link-homepage{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+   padding:10px;
+  font-size: 45px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+}
